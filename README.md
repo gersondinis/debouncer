@@ -22,7 +22,7 @@ Simple debouncer with identifiers
 ## The `debounce` helper:
 
 ### Example 1 - Simple use of `debounce` helper method:
-```
+```js
 import {debounce} from '@grd/debouncer';
 
 <button onClick={() => {
@@ -33,7 +33,7 @@ import {debounce} from '@grd/debouncer';
 ```
 ### Example 2 - With `identifier` (_Preventing parallel issues_):
 ##### With no identifiers the second debounce call would cancel the first one.
-```
+```js
 import {debounce} from '@grd/debouncer';
 
 <button onClick={() => {
@@ -48,7 +48,7 @@ import {debounce} from '@grd/debouncer';
 ## The `debouncer` instance:
 
 #### Example 1 - Clear all pending timeouts:
-```
+```js
 import {debouncer} from '@grd/debouncer';
 
 <button onClick={() => {
@@ -64,7 +64,7 @@ import {debouncer} from '@grd/debouncer';
 ```
 
 #### Example 2 - Using `unique identifiers` to prevent concurrency issues, and clearing them:
-```
+```js
 import {debouncer} from '@grd/debouncer';
 
 <button onClick={() => {
@@ -82,7 +82,7 @@ import {debouncer} from '@grd/debouncer';
 ```
 
 #### Example 3 - Also you can access all pending timout id's:
-```
+```js
 import {debouncer} from '@grd/debouncer';
 
 <button onClick={() => {
@@ -104,7 +104,7 @@ import {debouncer} from '@grd/debouncer';
 ## The `debouncer` class:
 
 #### Example 1 - Same debouncer instance `API` but you choose the scope `[by default is application wide]`:
-```
+```js
 import {Debouncer} from '@grd/debouncer';
 
 const debouncerA = new Debouncer();
