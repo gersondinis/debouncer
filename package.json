@@ -1,0 +1,20 @@
+{
+  "name": "@grd/debouncer",
+  "version": "1.0.0",
+  "description": "A simple debouncer",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gersondinis/debouncer.git"
+  },
+  "keywords": [
+    "Debounce",
+    "Debouncer"
+  ],
+  "author": "Gerson Diniz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gersondinis/debouncer/issues"
+  },
+  "homepage": "https://github.com/gersondinis/debouncer#readme"
+}
