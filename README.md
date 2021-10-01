@@ -95,9 +95,9 @@ import {debouncer} from '@grd/debouncer';
 
 <button onClick={() => console.log(debouncer.getAll())}>
     Get the timout id's and associated identifiers
-    //{DEFAULT: 0, A: 1, B: 2, C: 3}
 </button>
 
+//{DEFAULT: 0, A: 1, B: 2, C: 3}
 ```
 <hr/>
 
